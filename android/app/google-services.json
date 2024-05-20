@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "690710187059",
+    "project_id": "dental-clinic-e9e8d",
+    "storage_bucket": "dental-clinic-e9e8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690710187059:android:181d300bf812ea5fe0e746",
+        "android_client_info": {
+          "package_name": "com.MichalPierog.registration_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMOo-BKx_qn0W3R7XnsrvzA4lcrmMb2Cw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
