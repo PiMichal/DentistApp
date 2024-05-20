@@ -3,8 +3,8 @@ import 'package:flutter_progress_hud/flutter_progress_hud.dart';
 import 'package:registration/widgets/reusable_appbar.dart';
 import 'package:registration/utilites/constants.dart';
 import 'package:registration/widgets/reusable_input.dart';
-import '../widgets/reusable_screenButtons.dart';
 import 'package:registration/services/login_to_database.dart';
+import 'package:registration/utilites/config.dart';
 
 class PersonelLoginScreen extends StatefulWidget {
   @override
@@ -12,7 +12,7 @@ class PersonelLoginScreen extends StatefulWidget {
 }
 
 class _PersonelLoginScreenState extends State<PersonelLoginScreen> {
-  String email = 'admin@admin.pl';
+  String email = ADMIN_EMAIL;
   String password = '';
   String error = '';
 
